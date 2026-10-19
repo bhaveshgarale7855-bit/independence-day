@@ -1,0 +1,2 @@
+import React from "react";
+export default function Chakra(){return <div className="chakra">{Array.from({length:24},(_,i)=><span key={i} className="chakra-spoke" style={{transform:`translate(-50%,-50%) rotate(${i*15}deg)`}}/>)}<span className="chakra-core"/></div>}
